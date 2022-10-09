@@ -10,20 +10,25 @@ const routes = [
     {
         id: 1,
         component: <Home />,
-        path: "/home"
+        path: "/",
     },
     {
         id: 2,
+        component: <Home />,
+        path: "/home"
+    },
+    {
+        id:3,
         component: <Services />,
         path:"/services"
     },
     {
-        id: 3,
+        id: 4,
         component: <About />,
         path: "/about"
     },
     {
-        id: 4,
+        id: 5,
         component: <Contact />,
         path: "/contact"
     }

@@ -2,21 +2,12 @@ import { Grid} from "@mui/material";
 import {Link} from "react-router-dom";
 import { LinkButton} from "./LinkButton";
 import { PrimaryButton} from "./PrimaryButton";
-import { makeStyles} from "@mui/styles";
 
-const useStyles = makeStyles(() => ({
-    container: {
-        padding: "1rem",
-        borderBottom:"1px solid #cecece"
-    }
-}))
 
 export const Navbar = () => {
 
-    const classes = useStyles();
-
     return  (
-        <Grid container alignItems={"center"} className={classes.container}>
+        <Grid container alignItems={"center"} style={{padding: "1rem", borderBottom:"1px solid #cecece"}}>
             <Grid item md={2}>
                 <img src={"/img/img.png"} alt={"star-logo"} style={{width: "50%", height: "auto"}}/>
             </Grid>

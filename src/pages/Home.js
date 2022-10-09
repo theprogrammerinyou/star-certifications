@@ -55,11 +55,11 @@ export const Home = () => {
           </Grid>
           <Grid container item spacing={4} p="5rem">
             <Grid item xs={4}>
-              <div class="media-left">
-                <span class="icon-lightbulb"></span>
+              <div className="media-left">
+                <span className="icon-lightbulb"></span>
               </div>
 
-              <div class="media-body">
+              <div className="media-body">
                 <h3>Professional Team</h3>
 
                 <Typography variant="p" component="div">
@@ -70,10 +70,10 @@ export const Home = () => {
             </Grid>
 
             <Grid item xs={4}>
-              <div class="media-left">
-                <span class="icon-mobile"></span>
+              <div className="media-left">
+                <span className="icon-mobile"></span>
               </div>
-              <div class="media-body">
+              <div className="media-body">
                 <h3>Client Satisfaction</h3>
 
                 <p>
@@ -84,11 +84,11 @@ export const Home = () => {
             </Grid>
 
             <Grid item xs={4}>
-              <div class="media-left">
-                <span class="icon-compass"></span>
+              <div className="media-left">
+                <span className="icon-compass"></span>
               </div>
 
-              <div class="media-body">
+              <div className="media-body">
                 <h3>Time Framwork</h3>
 
                 <p>
@@ -113,7 +113,7 @@ export const Home = () => {
         <Grid container spacing={4} p="5rem">
           <Grid item xs={3}>
             {" "}
-            <WorkspacePremium fontsize="large" />
+            <WorkspacePremium fontSize="large" />
             <p style={{ fontWeight: "bold" }}>BIS Certification</p>
             <p>
               The Bill seeks to broaden its ambit, and allow the central
@@ -127,7 +127,7 @@ export const Home = () => {
 
           <Grid item xs={3}>
             {" "}
-            <WorkspacePremium fontsize="large" />
+            <WorkspacePremium fontSize="large" />
             <p style={{ fontWeight: "bold" }}>TEC Certification</p>{" "}
             <p>
               Star Certifications is deals with the products to understand the
@@ -141,7 +141,7 @@ export const Home = () => {
 
           <Grid item xs={3}>
             {" "}
-            <WorkspacePremium fontsize="large" />
+            <WorkspacePremium fontSize="large" />
             <p style={{ fontWeight: "bold" }}>WPC Certification</p>{" "}
             <p>
               It caters the needs of all wireless users in the country,
@@ -155,7 +155,7 @@ export const Home = () => {
 
           <Grid item xs={3}>
             {" "}
-            <WorkspacePremium fontsize="large" />
+            <WorkspacePremium fontSize="large" />
             <p style={{fontWeight: "bold"}}>Other Certifications</p>
             <p>
               We also deal with other certifications such as Energy Efficient
